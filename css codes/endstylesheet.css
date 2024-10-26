@@ -1,0 +1,209 @@
+.card {
+    display: inline-flex;
+    margin: 47px 38px 50px 38px;
+}
+
+.colored-section {
+    background-color: rgb(41, 41, 119);
+    padding: 50px 0px 50px 50px;
+    color: aliceblue;
+}
+
+.footer {
+    font-family: 'Protest Strike';
+}
+
+.footersocialicons {
+    width: 100%;
+    margin: auto;
+    padding: 0px 25px 0px 25px;
+}
+
+.fa-brands {
+    padding: 10px;
+    display: inline-block;
+}
+
+.contacts_text {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: inline-flex;
+    position: relative;
+    padding: 10px 50px 0px 50px;
+    justify-content: center;
+}
+
+.hotline {
+    padding: 25px;
+    font-size: 20px;
+    display: inline-flex;
+}
+
+.email {
+    padding: 25px;
+    font-size: 20px;
+    display: inline-flex;
+}
+
+
+.email_submit {
+    margin-bottom: 1rem;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    height: 35px;
+    justify-content: center;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    padding: 10px;
+}
+
+.nav-link {
+    color: aliceblue;
+    font-family: 'Protest Strike';
+    font-size: 20px;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    font-family: 'Protest Strike';
+    width: auto;
+    font-size: 30px;
+}
+
+.navbar-brand > img {
+    height: 60px;
+    width: fit-content;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -1px;
+}
+
+.colored-section{
+    display: block;
+    padding: 3% 15%;
+}
+
+.navbar {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link:hover {
+    color: #365ca3;
+}
+
+.navbar-brand:hover {
+    color: #365ca3;
+}
+
+.nav-link:active,
+.nav-link:focus {
+  color: aliceblue;
+}
+
+.navbar-brand:active,
+.navbar-brand:focus {
+  color: aliceblue;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0rem;
+}
+
+.dropdown-menu {
+    width: auto !important;
+    min-width: 250px; /* Adjust based on content */
+  }
+
+  .btn {
+    background-color: #cbefff;
+    border: none;
+    color: #748ec0;
+    font-family: 'Protest Strike';
+  }
+
+  .btn:hover {
+    background-color: #577fca;
+    border: none;
+    color: aliceblue;
+    font-family: 'Protest Strike';
+  }
+
+  .map_embed {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.map_embed iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin-left: -200px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footersocialicons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.contacts_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotline {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.email_submit {
+    margin-bottom: 1rem;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    height: 35px;
+    justify-content: center;
+}
+
+.fa-brands, .fa-solid, .fas {
+    padding: 10px;
+}
+
+.fa-brands {
+    display: inline-block;
+}
+
+.footer {
+    font-family: 'Protest Strike';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-5 {
+    padding: 70px;
+}

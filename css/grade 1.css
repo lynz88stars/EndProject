@@ -94,6 +94,13 @@
     padding: 3% 15%;
 }
 
+.navbar {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
 .nav-link:hover {
     color: #365ca3;
 }
@@ -116,68 +123,7 @@
     --bs-navbar-padding-y: 0rem;
 }
 
-.white-section {
-    background-color: whitesmoke;
-    color: black;
-    padding: 50px 0px 50px 50px;
-}
-
-#secondarynavbar .nav-link {
-    color: rgb(60, 84, 121);
-    font-size: 23px;
-    font-family: 'Anton';
-  }
-  
-  #secondarynavbar .nav-link:hover {
-    color: rgb(38, 56, 74);
-  }
-  
-  #secondarynavbar .nav-link:active,
-  #secondarynavbar .nav-link:focus {
-    color: rgb(38, 56, 74);
-  }
-
-  .card {
-    margin-bottom: 20px;
-    height: fit-content;
-    width: 100%;
-  }
-  
-  .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-wrap: wrap;
-  }
-
-  .mt-5 {
-    margin-top: 0rem !important;
-    margin-bottom: 1.5rem;
-  }
-
-  .poststh {
-    margin-top: 0rem !important;
-  }
-
-  .mb-4 {
-    margin-bottom: 0rem !important;
-  }
-
-  .btn {
-    background-color: #cbefff;
-    border: none;
-    color: #748ec0;
-    font-family: 'Protest Strike';
-  }
-
-  .btn:hover {
-    background-color: #577fca;
-    border: none;
-    color: aliceblue;
-    font-family: 'Protest Strike';
-  }
-
-  .map_embed {
+.map_embed {
     height: 100%;
     display: flex;
     align-items: center;

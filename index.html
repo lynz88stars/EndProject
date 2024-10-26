@@ -30,48 +30,69 @@
 </head>
 <body>
     <!--Fixed Navbar-->
-    <section id="navbar">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid colored-section">
-            <a class="navbar-brand" href="./endproject.html">
-                <img src="./img/file.png" alt="Logo" width="30" height="24">
-            </a>
-          <a class="navbar-brand" href="./eduhub.html">EduHUB</a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./endproject.html">Home</a>
+    <section id="custom-navbar">
+      <nav class="custom-navbar navbar navbar-expand-lg">
+        <div class="custom-navbar-container container-fluid">
+          <!-- Brand Logo and Name -->
+          <a class="custom-navbar-brand d-flex align-items-center" href="./index.html">
+            <img src="./img/file.png" alt="Logo" width="30" height="24" class="custom-logo">
+            <span class="ms-2 custom-logo-text">EduHUB</span>
+          </a>
+    
+          <!-- Toggler for small screens -->
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse custom-collapse mx-5" id="navbarSupportedContent">
+            <!-- Left-aligned Links -->
+            <ul class="custom-navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item custom-nav-item">
+                <a class="nav-link custom-nav-link" aria-current="page" href="./index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link -bs-link-hover-color-rgb: 25, 135, 84;" href="https://calendar.google.com/calendar/u/0/r/month/2024/11/1">Calendar</a>
+              <li class="nav-item custom-nav-item">
+                <a class="nav-link custom-nav-link" href="https://calendar.google.com/calendar/u/0/r/month/2024/11/1">Calendar</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item dropdown custom-nav-item">
+                <a class="nav-link dropdown-toggle custom-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Grade
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./grade 1.html">Grade 1</a></li>
-                  <li><a class="dropdown-item" href="./grade 2.html">Grade 2</a></li>
-                  <li><a class="dropdown-item" href="#">Grade 3</a></li>
-                  <li><a class="dropdown-item" href="#">Grade 4</a></li>
-                  <li><a class="dropdown-item" href="#">Grade 5</a></li>
-                  <li><a class="dropdown-item" href="#">Grade 6</a></li>
-                  <li><a class="dropdown-item" href="#">Grade 7</a></li>
-                  <li><a class="dropdown-item" href="#">Grade 8</a></li>
-                  <li><a class="dropdown-item" href="#">Grade 9</a></li>
-                  <li><a class="dropdown-item" href="#">Grade 10</a></li>
-                  <li><a class="dropdown-item" href="#">Grade 11</a></li>
-                  <li><a class="dropdown-item" href="#">Grade 12</a></li>
+                <ul class="dropdown-menu custom-dropdown-menu">
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade1.html">Grade 1</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 2</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 3</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 4</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 5</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 6</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 7</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 8</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 9</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 10</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 3</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 4</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 5</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 6</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 7</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 8</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 9</a></li>
+                  <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 10</a></li>
+                  <!-- Add more grade links as needed -->
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link -bs-link-hover-color-rgb: 25, 135, 84;" href="./login.html">Login</a>
+            </ul>
+    
+            <!-- Right-aligned Login Button -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item custom-nav-item">
+                <a class="nav-link custom-login-link" href="./login.html">Login</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </section>
+    
+    
 
     <!--Your Classes-->
     <section id="yourclasses" class="yourclasses white-section">
@@ -127,39 +148,40 @@
 
       <!--Footer-->
       <footer>
-        <section id="footer" class="footer colored-section">
-          <div class="footer container-fluid">
-            <div class="row">
+        <section id="custom-footer" class="footer custom-footer-section">
+          <div class="custom-footer-container container-fluid">
+            <div class="row align-items-center" style="padding: 40px;">
               <!-- Google Maps Section -->
               <div class="col-md-7">
-                <div class="map_embed">
+                <div class="custom-map-embed">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6784201638043!2d106.66361631023577!3d10.759248389344188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f6bbe42191d%3A0xe512a5ac463b3f25!2zMTUzIMSQLiBOZ3V54buFbiBDaMOtIFRoYW5oLCBQaMaw4budbmcgOSwgUXXhuq1uIDUsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1729921704753!5m2!1sen!2s"
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="100%" height="400" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div>
       
               <!-- Contacts Section -->
               <div class="col-md-5">
-                <div class="contact-container">
-                  <div class="footersocialicons">
-                    <i class="fa-brands fa-facebook fa-2xl"></i>
-                    <i class="fa-brands fa-x-twitter fa-2xl"></i>
-                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                <div class="custom-contact-container text-center">
+                  <div class="custom-social-icons mb-3">
+                    <i class="fa-brands fa-facebook fa-2xl mx-2 custom-icon-facebook"></i>
+                    <i class="fa-brands fa-x-twitter fa-2xl mx-2 custom-icon-twitter"></i>
+                    <i class="fa-brands fa-instagram fa-2xl mx-2 custom-icon-instagram"></i>
                   </div>
-                  <div class="contacts_text">
-                    <div class="hotline">
+                  <div class="custom-contacts-text my-3">
+                    <div class="custom-hotline">
                       <i class="fa-solid fa-phone"></i>
-                      <p>+0925369159</p>
+                      <p class="custom-phone-number">+0925369159</p>
                     </div>
-                    <div class="hotline">
+                    <div class="custom-hotline">
                       <i class="fa-solid fa-envelope"></i>
-                      <p>eduHUB@gmail.com</p>
+                      <p class="custom-email">eduHUB@gmail.com</p>
                     </div>
                   </div>
-                  <div class="email_submit">
-                    <textarea class="update_mail" placeholder="Your Email" rows="5" id="comment" name="Your Email"></textarea>
+                  <div class="custom-email-submit mt-4">
+                    <input type="email" class="custom-update-mail form-control" placeholder="Your Email" style="border-radius: 20px; padding: 10px;">
+                    <button class="custom-subscribe-btn btn btn-primary mt-3" style="border-radius: 20px; width: 100%;">Subscribe</button>
                   </div>
                 </div>
               </div>
@@ -167,13 +189,7 @@
           </div>
         </section>
       </footer>
-      
   </nav>
-
 </nav>   
-
-
-
-
 </body>
 </html>

@@ -112,3 +112,149 @@ body {
     padding: 70px;
 }
 
+
+/* Container Styling */
+.custom-container {
+  background-color: #f9fbfd;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.custom-login-title {
+  color: #3b5998;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Group Styling */
+.custom-form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.custom-form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input Fields */
+.custom-form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.custom-form-control:focus {
+  border-color: #3b5998;
+  outline: none;
+  box-shadow: 0px 0px 4px rgba(59, 89, 152, 0.3);
+}
+
+/* Submit Button */
+.custom-submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-submit-button:hover {
+  background-color: #2a4378;
+}
+
+/* Signup Text */
+.custom-signup-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+.custom-signup-link {
+  color: #3b5998;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.custom-signup-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Container Styling */
+.custom-signup-container {
+  background-color: #f9fbfd;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.custom-signup-title {
+  color: #3b5998;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Group Styling */
+.custom-form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.custom-form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input Fields */
+.custom-form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.custom-form-control:focus {
+  border-color: #3b5998;
+  outline: none;
+  box-shadow: 0px 0px 4px rgba(59, 89, 152, 0.3);
+}
+
+/* Submit Button */
+.custom-submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-submit-button:hover {
+  background-color: #2a4378;
+}

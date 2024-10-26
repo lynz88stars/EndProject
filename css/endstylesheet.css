@@ -207,3 +207,133 @@
 .col-md-5 {
     padding: 70px;
 }
+
+/* Footer Background */
+.custom-footer-section {
+    background: linear-gradient(135deg, #0a3d62, #3c6382);
+    color: white;
+  }
+  
+  /* Social Icons Styling */
+  .custom-social-icons i {
+    transition: transform 0.3s, color 0.3s;
+  }
+  .custom-social-icons .custom-icon-facebook:hover {
+    transform: scale(1.1);
+    color: #4267B2;
+  }
+  .custom-social-icons .custom-icon-twitter:hover {
+    transform: scale(1.1);
+    color: #1DA1F2;
+  }
+  .custom-social-icons .custom-icon-instagram:hover {
+    transform: scale(1.1);
+    color: #C13584;
+  }
+  
+  /* Contact Info Styling */
+  .custom-phone-number, .custom-email {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  
+  /* Email Input and Button */
+  .custom-update-mail {
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  .custom-subscribe-btn {
+    background-color: #4267B2;
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  .custom-subscribe-btn:hover {
+    background-color: #2a4f82;
+  }
+  
+
+  /* Navbar Background and Styling */
+.custom-navbar {
+    font-size: 20px;
+    background-color: #0a3d62;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-navbar-container {
+    padding: 10px 20px;
+  }
+  
+  /* Logo and Brand Text */
+  .custom-navbar-brand {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .custom-logo {
+    border-radius: 50%;
+  }
+  
+  .custom-logo-text {
+    color: #f1c40f;
+  }
+  
+  /* Toggler Button for Small Screens */
+  .custom-toggler {
+    border: none;
+    color: white;
+  }
+  
+  .custom-toggler:hover {
+    color: #f1c40f;
+  }
+  
+  /* Navbar Links */
+  .custom-navbar-nav .custom-nav-link {
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .custom-navbar-nav .custom-nav-link:hover {
+    color: #f1c40f;
+    background-color: #34495e;
+    border-radius: 5px;
+  }
+  
+  /* Login Link Styling */
+  .custom-login-link {
+    color: #f1c40f;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .custom-login-link:hover {
+    color: white;
+    background-color: #f1c40f;
+    border-radius: 5px;
+  }
+  
+  /* Dropdown Styling */
+  .custom-dropdown-menu {
+    background-color: #34495e;
+    border-radius: 8px;
+  }
+  
+  .custom-dropdown-item {
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-dropdown-item:hover {
+    background-color: #1abc9c;
+    color: white;
+  }
+  

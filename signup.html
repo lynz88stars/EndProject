@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./css/login.css">
+    
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="custom-signup-container">
+    <form id="custom-signup-form">
+      <h2 class="custom-signup-title">Sign Up</h2>
+      <div class="custom-form-group mb-3">
+        <label for="custom-signup-username" class="custom-form-label">Username</label>
+        <input type="text" class="custom-form-control" id="custom-signup-username" placeholder="Username" required>
+      </div>
+      <div class="custom-form-group mb-3">
+        <label for="custom-signup-email" class="custom-form-label">Email address</label>
+        <input type="email" class="custom-form-control" id="custom-signup-email" placeholder="email@example.com" required>
+      </div>
+      <div class="custom-form-group mb-3">
+        <label for="custom-signup-password" class="custom-form-label">Password</label>
+        <input type="password" class="custom-form-control" id="custom-signup-password" placeholder="Password" required>
+      </div>
+      <input type="submit" value="Sign Up" class="custom-submit-button" onclick="signUp()">
+    </form>
+  </div>
+  
+    <script>
+      function signUp() {
+        event.preventDefault();
+        let name = document.getElementById('signupUsername').value;
+        let email = document.getElementById('signupEmail').value;
+        let password = document.getElementById('signupPassword').value;
+        const user = {
+            name: name,
+            email: email,
+            password: password
+        };
+        let users = JSON.parse(localStorage.getItem('users')) || [];
+         for (let i = 0; i < users.length; i++) {
+             if (users[i].email === email) {
+                 alert('User email already exists');
+                 return;
+             }
+         }
+        users.push(user);
+        localStorage.setItem('users', JSON.stringify(users));
+        window.location.href = 'login.html';
+    }
+    </script>
+</body>
+</html>

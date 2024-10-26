@@ -1,0 +1,23 @@
+.menubar > img {
+    height: 50px;
+}
+
+.menubar > a {
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.items > img {
+    height: 500px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}

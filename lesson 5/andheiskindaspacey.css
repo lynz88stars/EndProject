@@ -1,0 +1,13 @@
+.container {
+    padding: 10px;
+    border: 5px solid black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 10px;
+}

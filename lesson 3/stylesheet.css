@@ -1,0 +1,63 @@
+.Name {
+    color: rgb(91, 49, 129);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 100px 0px 0px 70px;
+}
+
+.Contactinfo > h3 {
+    color: rgb(101, 75, 126);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+}
+
+.Contactinfo > ul {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 90px;
+}
+
+
+.ProfileandEdu > h3 {
+    color: rgb(101, 75, 126);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 60px;
+    font-size: 30px;
+}
+
+.ProfileandEdu > p {
+    padding-left: 45px;
+    font-size: 20px;
+}
+
+.ProfileandEdu > h4 {
+    padding-left: 45px;
+    font-size: 20px;
+}
+
+.ProfileandEdu > img {
+    border-radius: 100px;
+    max-width: 75%;
+    max-height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SkillsandEXP > h3 {
+    color: rgb(101, 75, 126);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 60px;
+    font-size: 30px;
+}
+
+.SkillsandEXP > p {
+    padding-left: 45px;
+    font-size: 20px;
+}
+
+.SkillsandEXP > ul {
+    padding-left: 45px;
+    font-size: 20px;
+}

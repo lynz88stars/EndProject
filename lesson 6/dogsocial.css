@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 1500px;
+}
+
+img {
+    height: 500px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.card {
+    display: inline-flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+h3 {
+    margin: 30px;
+    position: relative;
+    top: 110px;
+}
+

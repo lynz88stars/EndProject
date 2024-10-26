@@ -1,0 +1,30 @@
+#menu {
+    display: inline;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    position: absolute;
+    top: -22px;
+    margin: 50px 1000px 50px 90px;
+}
+
+#return {
+    position: relative;
+    bottom: -110px;
+    left: 411px;
+}
+
+#notifications {
+    position: fixed;
+    top: 161px;
+    left: 731px;
+}
+
+body {
+    height: 1000px;
+}
+
+.lo {
+    padding: 300px 500px 50px 200px;
+    border: 10px solid;
+    border-color: black;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS8</title>
+</head>
+
+<body>
+    <form action="/submit_form" method="post">
+        <label for="fname">Tên:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Họ:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Gửi">
+    </form>
+
+    <!-- Ví dụ với action -->
+    <form action="https://www.example.com/submit_form">
+        <!-- các trường nhập liệu và nút gửi -->
+    </form>
+
+
+    <!-- Ví dụ với method -->
+    <form action="https://www.example.com/submit_form" method="post">
+        <!-- các trường nhập liệu và nút gửi -->
+    </form>
+
+    <form action="https://www.example.com/upload_file" method="post" enctype="multipart/form-data">
+        <input type="file" name="myFile">
+        <input type="submit" value="Upload File">
+    </form>
+
+    
+
+
+</body>
+
+</html>

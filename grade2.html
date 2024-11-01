@@ -49,14 +49,14 @@
                 <div class="collapse navbar-collapse custom-collapse mx-5" id="navbarSupportedContent">
                     <!-- Left-aligned Links -->
                     <ul class="custom-navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item custom-nav-item">
+                        <li class="nav-item custom-nav-item mx-2">
                             <a class="nav-link custom-nav-link" aria-current="page" href="./index.html">Home</a>
                         </li>
-                        <li class="nav-item custom-nav-item">
+                        <li class="nav-item custom-nav-item mx-2">
                             <a class="nav-link custom-nav-link"
                                 href="https://calendar.google.com/calendar/u/0/r/month/2024/11/1">Calendar</a>
                         </li>
-                        <li class="nav-item dropdown custom-nav-item">
+                        <li class="nav-item dropdown custom-nav-item mx-2">
                             <a class="nav-link dropdown-toggle custom-nav-link" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Grade
@@ -81,16 +81,16 @@
                                 <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 9</a></li>
                                 <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 10</a></li>
                                 <!-- Add more grade links as needed -->
-                              </ul>
+                            </ul>
                         </li>
                     </ul>
-<!-- Right-aligned User Info -->
-<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-    <li class="nav-item custom-nav-item" id="user-info">
-      <!-- User info will be dynamically inserted here -->
-      <a class="nav-link custom-login-link" href="./login.html">Login</a>
-    </li>
-  </ul>
+                    <!-- Right-aligned User Info -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item custom-nav-item" id="user-info">
+                            <!-- User info will be dynamically inserted here -->
+                            <a class="nav-link custom-login-link" href="./login.html">Login</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -98,61 +98,100 @@
 
     <!--Classes-->
     <section id="grade1" class="grade1">
-        <div class="card col-md-6" style="width: 18rem;">
-            <img src="https://i.pinimg.com/736x/ac/c9/7c/acc97c4f6ba2fc68266b7e687511abca.jpg" class="card-img-top"
-                alt="Math">
-            <div class="card-body">
-                <h5 class="card-title">Grade 2 Mathematics</h5>
-                <p class="card-text">Teacher: T.T.Anh</p>
-                <a href="./maths.html" class="btn btn-primary">View</a>
-            </div>
-        </div>
-        <div class="card col-md-6" style="width: 18rem;">
-            <img src="https://i.pinimg.com/originals/b0/52/6d/b0526d8ca7d5b6202bc0b22481258421.jpg" class="card-img-top"
-                alt="Literature">
-            <div class="card-body">
-                <h5 class="card-title">Grade 2 Literature</h5>
-                <p class="card-text">Teacher: P.Q.Bao</p>
-                <a href="#" class="btn btn-primary">View</a>
-            </div>
-        </div>
-        <div class="card col-md-6" style="width: 18rem;">
-            <img src="https://superblog.supercdn.cloud/site_cuid_ckucmy84h97811nplkx3qfbgx/images/360f2268659604icxo3nduxkus3qgyb0jm5g26nrz36dy-1706005957048-compressed.jpg"
-                class="card-img-top" alt="English">
-            <div class="card-body">
-                <h5 class="card-title">Grade 2 English</h5>
-                <p class="card-text">Teacher: P.T.T.Mi</p>
-                <a href="#" class="btn btn-primary">View</a>
-            </div>
-        </div>
-        <div class="card col-md-6" style="width: 18rem;">
-            <img src="https://bright-culture.com/wp-content/uploads/2021/06/5-Steps-to-Understand-Chemistry-optimized.png"
-                class="card-img-top" alt="English">
-            <div class="card-body">
-                <h5 class="card-title">Grade 2 Chemistry</h5>
-                <p class="card-text">Teacher: N.V.An</p>
-                <a href="#" class="btn btn-primary">View</a>
-            </div>
-        </div>
-        <div class="card col-md-6" style="width: 18rem;">
-            <img src="https://i.pinimg.com/736x/63/83/c4/6383c41d66806e00fefa80e19be2dbe6.jpg" class="card-img-top"
-                alt="English">
-            <div class="card-body">
-                <h5 class="card-title">Grade 2 Physics</h5>
-                <p class="card-text">Teacher: L.P.Khang</p>
-                <a href="#" class="btn btn-primary">View</a>
-            </div>
-        </div>
-        <div class="card col-md-6" style="width: 18rem;">
-            <img src="https://img.freepik.com/premium-vector/biology-doodle-set-collection-hand-drawn-elements-science-biology-isolated-white-background_308665-1569.jpg"
-                class="card-img-top" alt="English">
-            <div class="card-body">
-                <h5 class="card-title">Grade 2 Biology</h5>
-                <p class="card-text">Teacher: H.G.Luong</p>
-                <a href="#" class="btn btn-primary">View</a>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://i.pinimg.com/736x/ac/c9/7c/acc97c4f6ba2fc68266b7e687511abca.jpg"
+                            class="card-img-top" alt="Math">
+                        <div class="card-body">
+                            <h5 class="card-title">Grade 2 Mathematics</h5>
+                            <p class="card-text">Teacher: T.T.Anh</p>
+                            <a href="./maths.html" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://i.pinimg.com/originals/b0/52/6d/b0526d8ca7d5b6202bc0b22481258421.jpg"
+                            class="card-img-top" alt="Literature">
+                        <div class="card-body">
+                            <h5 class="card-title">Grade 2 Literature</h5>
+                            <p class="card-text">Teacher: P.Q.Bao</p>
+                            <a href="./maths.html" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://superblog.supercdn.cloud/site_cuid_ckucmy84h97811nplkx3qfbgx/images/360f2268659604icxo3nduxkus3qgyb0jm5g26nrz36dy-1706005957048-compressed.jpg"
+                            class="card-img-top" alt="English">
+                        <div class="card-body">
+                            <h5 class="card-title">Grade 2 English</h5>
+                            <p class="card-text">Teacher: P.T.T.Mi</p>
+                            <a href="./maths.html" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://bright-culture.com/wp-content/uploads/2021/06/5-Steps-to-Understand-Chemistry-optimized.png"
+                            class="card-img-top" alt="Chemistry">
+                        <div class="card-body">
+                            <h5 class="card-title">Grade 2 Chemistry</h5>
+                            <p class="card-text">Teacher: N.V.An</p>
+                            <a href="./maths.html" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://i.pinimg.com/736x/63/83/c4/6383c41d66806e00fefa80e19be2dbe6.jpg"
+                            class="card-img-top" alt="Physics">
+                        <div class="card-body">
+                            <h5 class="card-title">Grade 2 Physics</h5>
+                            <p class="card-text">Teacher: L.P.Khang</p>
+                            <a href="./maths.html" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://img.freepik.com/premium-vector/biology-doodle-set-collection-hand-drawn-elements-science-biology-isolated-white-background_308665-1569.jpg"
+                            class="card-img-top" alt="Biology">
+                        <div class="card-body">
+                            <h5 class="card-title">Grade 2 Biology</h5>
+                            <p class="card-text">Teacher: H.G.Luong</p>
+                            <a href="./maths.html" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://img.freepik.com/free-vector/hand-drawn-science-education-background_23-2148499325.jpg"
+                            class="card-img-top" alt="Science" style="width: 304px; height: 304px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Grade 2 Science</h5>
+                            <p class="card-text">Teacher: P.T.Anh</p>
+                            <a href="./maths.html" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://img.freepik.com/premium-vector/music-school-subject-icon-education-science-discipline-with-related-elements-flat-style-vector_178650-34133.jpg"
+                            class="card-img-top" alt="Music" style="width: 304px; height: 304px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Grade 2 Music</h5>
+                            <p class="card-text">Teacher: P.T.Anh</p>
+                            <a href="./maths.html" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
 
     <!--Footer-->
     <footer>
@@ -202,24 +241,24 @@
     </footer>
     <script>
         function checkLoginStatus() {
-          let loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
-          if (loggedInUser) {
-            document.getElementById('user-info').innerHTML = `
+            let loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+            if (loggedInUser) {
+                document.getElementById('user-info').innerHTML = `
               <a class="nav-link custom-login-link" href="#" onclick="logout()"> ${loggedInUser.name}</a>
             `;
-          } else {
-            document.getElementById('user-info').innerHTML = `
+            } else {
+                document.getElementById('user-info').innerHTML = `
               <a class="nav-link custom-login-link" href="./login.html">Login</a>
             `;
-          }
+            }
         }
-      
+
         function logout() {
-          localStorage.removeItem('loggedInUser');
-          alert('Logged out successfully');
-          window.location.href = 'index.html';
+            localStorage.removeItem('loggedInUser');
+            alert('Logged out successfully');
+            window.location.href = 'index.html';
         }
-      </script>
+    </script>
 </body>
 
 </html>

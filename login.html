@@ -41,27 +41,26 @@
 
 
     <script>
-        function login() {
-            event.preventDefault();
-            let email = document.getElementById('custom-login-email').value;
-            let password = document.getElementById('custom-login-password').value;
-            const user = {
-                email: email,
-                password: password
-            };
-    
-            let users = JSON.parse(localStorage.getItem('users')) || [];
-    
-            for (let i = 0; i < users.length; i++) {
-                if (users[i].email === email && users[i].password === password) {
-                    alert('Logged in successfully');
-                    window.location.href = 'index.html';
-                    return;
-                }
+       
+    function login() {
+        event.preventDefault();
+        let email = document.getElementById('custom-login-email').value;
+        let password = document.getElementById('custom-login-password').value;
+        const user = {
+            email: email,
+            password: password
+        };
+        let users = JSON.parse(localStorage.getItem('users')) || [];
+        for (let i = 0; i < users.length; i++) {
+            if (users[i].email === email && users[i].password === password) {
+                localStorage.setItem('loggedInUser', JSON.stringify(users[i]));
+                alert('Logged in successfully');
+                window.location.href = 'index.html';
+                return;
             }
-    
-            alert('Invalid email or password');
         }
+        alert('Invalid email or password');
+    }
     </script>    
 
 </body>

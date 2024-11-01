@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(41, 41, 119);
+    background-color: #0a3d62;
     margin: 0;
   }
   .container {
@@ -39,7 +39,7 @@ body {
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: bold;
-    color: #365ca3;
+    color: #0a3d62;
   }
   .container p {
     margin-top: 10px;
@@ -163,7 +163,7 @@ body {
 .custom-submit-button {
   width: 100%;
   padding: 12px;
-  background-color: #3b5998;
+  background-color: #0a3d62;
   color: white;
   border: none;
   border-radius: 5px;
@@ -245,7 +245,7 @@ body {
 .custom-submit-button {
   width: 100%;
   padding: 12px;
-  background-color: #3b5998;
+  background-color: #0a3d62;
   color: white;
   border: none;
   border-radius: 5px;

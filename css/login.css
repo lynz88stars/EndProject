@@ -151,6 +151,7 @@ body {
   border: 1px solid #ced4da;
   font-size: 1em;
   transition: border-color 0.3s;
+  margin-top: 10px;
 }
 
 .custom-form-control:focus {
@@ -227,7 +228,7 @@ body {
 
 /* Input Fields */
 .custom-form-control {
-  width: 100%;
+  width: 94%;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ced4da;

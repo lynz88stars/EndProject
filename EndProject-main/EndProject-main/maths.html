@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 10 Maths</title>
+
+    <!--Bootstrap Links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./css/maths.css">
+    <link rel="stylesheet" href="./css/endstylesheet.css">
+
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body onload="checkLoginStatus()">
+    <!--Fixed Navbar-->
+    <section id="custom-navbar">
+        <nav class="custom-navbar navbar navbar-expand-lg">
+            <div class="custom-navbar-container container-fluid">
+                <!-- Brand Logo and Name -->
+                <a class="custom-navbar-brand d-flex align-items-center" href="./index.html">
+                    <img src="./img/file.png" alt="Logo" width="30" height="24" class="custom-logo">
+                    <span class="ms-2 custom-logo-text">EduHUB</span>
+                </a>
+
+                <!-- Toggler for small screens -->
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse custom-collapse mx-5" id="navbarSupportedContent">
+                    <!-- Left-aligned Links -->
+                    <ul class="custom-navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link custom-nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item custom-nav-item">
+                            <a class="nav-link custom-nav-link"
+                                href="https://calendar.google.com/calendar/u/0/r/month/2024/11/1">Calendar</a>
+                        </li>
+                        <li class="nav-item dropdown custom-nav-item">
+                            <a class="nav-link dropdown-toggle custom-nav-link" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Grade
+                            </a>
+                            <ul class="dropdown-menu custom-dropdown-menu">
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade1.html">Grade 1</a></li>
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 2</a></li>
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 3</a></li>
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 4</a></li>
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 5</a></li>
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 6</a></li>
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 7</a></li>
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 8</a></li>
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 9</a></li>
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 10</a></li>
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 11</a></li>
+                                <li><a class="dropdown-item custom-dropdown-item" href="./grade2.html">Grade 12</a></li>
+                              </ul>
+                        </li>
+                    </ul>
+<!-- Right-aligned User Info -->
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    <li class="nav-item custom-nav-item" id="user-info">
+      <!-- User info will be dynamically inserted here -->
+      <a class="nav-link custom-login-link" href="./login.html">Login</a>
+    </li>
+  </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!--Secondary Navbar-->
+    <section id="secondarynavbar">
+        <div class="white-section container-fluid">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="./maths.html">Chatroom</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./assignments.html">Assigments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./resources.html">Resources</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!--Posts-->
+    <div class="container mt-5">
+        <div class="row">
+
+            <!-- Post Something Card -->
+            <div class="poststh">
+                <div class="col-md-8 offset-md-2 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Post Something</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="3" placeholder="What's on your mind?"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Post</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Example Task Card -->
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> Giúp</h5>
+                        <p class="card-text">Viết các tập hợp sau bằng cách nêu tính chất đặc trưng
+
+                            a/ A={0;3;8;15;24;35}
+
+                            b/B={-4;1;6;11;16}
+
+                            c/C={1;-2;7}</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Posted by Teacher on 10 October 2024
+                    </div>
+                </div>
+            </div>
+
+            <!-- Example Announcement Card -->
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Giải</h5>
+                        <p class="card-text">Dưới đây là các tập hợp A, B, và C được viết bằng cách nêu tính chất đặc
+                            trưng:
+
+                            a) Tập hợp A: A = {x | x = n^2 - 1, n ∈ {1, 2, 3, 4, 5, 6}}
+
+                            b) Tập hợp B: B = {x | x = 5k - 4, k ∈ ℤ}
+
+                            c) Tập hợp C: C = {x | x = 2n + 1, n ∈ {0, 1, 2}} ∪ {x | x = -2}</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Posted by Teacher on 5 October 2024
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Example Announcement Card -->
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Giải</h5>
+                    <p class="card-text">a; Xét dãy số: 0; 3; 8; 15; 24; 35
+
+                        st1 = 0 = 0.2 = (1 - 1).(1 + 1)
+
+                        st2 = 3 = 1.3 = (2 - 1).(2 + 1)
+
+                        st3 = 8 = 2.4 = (3 - 1).(3 + 1)
+
+                        st4 = 15 = 3.5 = (4 - 1).(4 + 1)
+
+                        st5 = 24 = 4.6 = (5 - 1).(5 + 1)
+
+                        st6 = 35 = 5.7 = (6 - 1.).(6 + 1)
+
+                        ..................
+
+                        stn = (n - 1).(n + 1)
+
+                        A = {(n -1).(n +1)/ 6 ≥ n
+                        ∈
+                        ∈ N*}</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Posted by Teacher on 5 October 2024
+                </div>
+            </div>
+        </div>
+
+        <!-- Example Announcement Card -->
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Giải</h5>
+                    <p class="card-text">cho tập A = [1;8] và B = { x thuộc R | x^2-2(m+1)+m+3 = 0 } . Có bao nhiêu giá
+                        trị nguyên của tham số m để thỏa mã điều kiện B có đúng hai tập con và B là con A</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Posted by Teacher on 5 October 2024
+                </div>
+            </div>
+        </div>
+
+        <!-- Example Announcement Card -->
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Giải</h5>
+                    <p class="card-text">Giải tam giác ABC, biết BC = 12 m, AC = 31 m và A = 20,5°</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Posted by Teacher on 5 October 2024
+                </div>
+            </div>
+        </div>
+        <!--Do not delete or it'll fuck up your code!!!!!!!!!!-->
+    </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer>
+        <section id="custom-footer" class="footer custom-footer-section">
+            <div class="custom-footer-container container-fluid">
+                <div class="row align-items-center" style="padding: 40px;">
+                    <!-- Google Maps Section -->
+                    <div class="col-md-7">
+                        <div class="custom-map-embed">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6784201638043!2d106.66361631023577!3d10.759248389344188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f6bbe42191d%3A0xe512a5ac463b3f25!2zMTUzIMSQLiBOZ3V54buFbiBDaMOtIFRoYW5oLCBQaMaw4budbmcgOSwgUXXhuq1uIDUsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1729921704753!5m2!1sen!2s"
+                                width="100%" height="400" style="border:0; border-radius: 10px;"
+                                allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Contacts Section -->
+                    <div class="col-md-5">
+                        <div class="custom-contact-container text-center">
+                            <div class="custom-social-icons mb-3">
+                                <i class="fa-brands fa-facebook fa-2xl mx-2 custom-icon-facebook"></i>
+                                <i class="fa-brands fa-x-twitter fa-2xl mx-2 custom-icon-twitter"></i>
+                                <i class="fa-brands fa-instagram fa-2xl mx-2 custom-icon-instagram"></i>
+                            </div>
+                            <div class="custom-contacts-text my-3">
+                                <div class="custom-hotline">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p class="custom-phone-number">+0925369159</p>
+                                </div>
+                                <div class="custom-hotline">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p class="custom-email">eduHUB@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="custom-email-submit mt-4">
+                                <input type="email" class="custom-update-mail form-control"
+                                    placeholder="Your Email" style="border-radius: 20px; padding: 10px;">
+                                <button class="custom-subscribe-btn btn btn-primary mt-3"
+                                    style="border-radius: 20px; width: 100%;">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script>
+        function checkLoginStatus() {
+          let loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+          if (loggedInUser) {
+            document.getElementById('user-info').innerHTML = `
+              <a class="nav-link custom-login-link" href="#" onclick="logout()"> ${loggedInUser.name}</a>
+            `;
+          } else {
+            document.getElementById('user-info').innerHTML = `
+              <a class="nav-link custom-login-link" href="./login.html">Login</a>
+            `;
+          }
+        }
+      
+        function logout() {
+          localStorage.removeItem('loggedInUser');
+          alert('Logged out successfully');
+          window.location.href = 'index.html';
+        }
+      </script>
+</body>
+
+</html>

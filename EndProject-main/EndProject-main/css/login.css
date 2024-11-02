@@ -1,0 +1,260 @@
+body {
+    font-family: 'Lexend';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0a3d62;
+    margin: 0;
+  }
+  .container {
+    max-width: 600px;
+    background-color: aliceblue;
+    padding: 20px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .nav-tabs .nav-link.active {
+    background-color: #365ca3;
+    color: aliceblue;
+  }
+
+  .tab-content {
+    padding-top: 20px;
+  }
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #365ca3;
+  }
+  .btn-primary {
+    background-color: #365ca3;
+    border-color: #365ca3;
+  }
+  .btn-primary:hover {
+    background-color: #577fca;
+    border-color: #577fca;
+  }
+  .container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #365ca3;
+  }
+  .container p {
+    margin-top: 10px;
+    color: #000000;
+  }
+
+  .map_embed {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.map_embed iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin-left: -200px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footersocialicons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.contacts_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotline {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.email_submit {
+    margin-bottom: 1rem;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    height: 35px;
+    justify-content: center;
+}
+
+.fa-brands, .fa-solid, .fas {
+    padding: 10px;
+}
+
+.fa-brands {
+    display: inline-block;
+}
+
+.footer {
+    font-family: 'Protest Strike';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-5 {
+    padding: 70px;
+}
+
+
+/* Container Styling */
+.custom-container {
+  background-color: #f9fbfd;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.custom-login-title {
+  color: #3b5998;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Group Styling */
+.custom-form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.custom-form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input Fields */
+.custom-form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.custom-form-control:focus {
+  border-color: #3b5998;
+  outline: none;
+  box-shadow: 0px 0px 4px rgba(59, 89, 152, 0.3);
+}
+
+/* Submit Button */
+.custom-submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0a3d62;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-submit-button:hover {
+  background-color: #2a4378;
+}
+
+/* Signup Text */
+.custom-signup-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+.custom-signup-link {
+  color: #3b5998;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.custom-signup-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Container Styling */
+.custom-signup-container {
+  background-color: #f9fbfd;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.custom-signup-title {
+  color: #3b5998;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Group Styling */
+.custom-form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.custom-form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input Fields */
+.custom-form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.custom-form-control:focus {
+  border-color: #3b5998;
+  outline: none;
+  box-shadow: 0px 0px 4px rgba(59, 89, 152, 0.3);
+}
+
+/* Submit Button */
+.custom-submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-submit-button:hover {
+  background-color: #2a4378;
+}
